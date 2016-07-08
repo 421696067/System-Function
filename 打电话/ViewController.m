@@ -17,11 +17,8 @@
 @property (nonatomic,strong)NSArray * dataArr2;
 /** 数据源3 */
 @property (nonatomic,strong)NSArray * dataArr3;
-
 @end
-
 @implementation ViewController
-
 
 
 - (void)viewDidLoad {
@@ -48,10 +45,14 @@
     return _myTableView;
 }
 
+
+
 #pragma mark ---- UITableViewDelegate 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 2;
 }
+
+
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
