@@ -15,6 +15,11 @@
 		07ED99921D2F749C00D97CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07ED99901D2F749C00D97CDD /* LaunchScreen.storyboard */; };
 		07ED999D1D2F749C00D97CDD /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ED999C1D2F749C00D97CDD /* ___Tests.m */; };
 		07ED99A81D2F749C00D97CDD /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ED99A71D2F749C00D97CDD /* ___UITests.m */; };
+		07ED99B81D2F888800D97CDD /* TelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ED99B61D2F888800D97CDD /* TelController.m */; };
+		07ED99B91D2F888800D97CDD /* TelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07ED99B71D2F888800D97CDD /* TelController.xib */; };
+		07ED99BD1D2F8E2300D97CDD /* SMSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07ED99BB1D2F8E2300D97CDD /* SMSController.m */; };
+		07ED99BE1D2F8E2300D97CDD /* SMSController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07ED99BC1D2F8E2300D97CDD /* SMSController.xib */; };
+		07ED99C01D2F8FF100D97CDD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07ED99BF1D2F8FF100D97CDD /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,13 @@
 		07ED99A31D2F749C00D97CDD /* 打电话UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "打电话UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07ED99A71D2F749C00D97CDD /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		07ED99A91D2F749C00D97CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07ED99B51D2F888800D97CDD /* TelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelController.h; sourceTree = "<group>"; };
+		07ED99B61D2F888800D97CDD /* TelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelController.m; sourceTree = "<group>"; };
+		07ED99B71D2F888800D97CDD /* TelController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TelController.xib; sourceTree = "<group>"; };
+		07ED99BA1D2F8E2300D97CDD /* SMSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSController.h; sourceTree = "<group>"; };
+		07ED99BB1D2F8E2300D97CDD /* SMSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSController.m; sourceTree = "<group>"; };
+		07ED99BC1D2F8E2300D97CDD /* SMSController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMSController.xib; sourceTree = "<group>"; };
+		07ED99BF1D2F8FF100D97CDD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07ED99C01D2F8FF100D97CDD /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,7 @@
 		07ED99761D2F749C00D97CDD = {
 			isa = PBXGroup;
 			children = (
+				07ED99BF1D2F8FF100D97CDD /* MessageUI.framework */,
 				07ED99811D2F749C00D97CDD /* 打电话 */,
 				07ED999B1D2F749C00D97CDD /* 打电话Tests */,
 				07ED99A61D2F749C00D97CDD /* 打电话UITests */,
@@ -105,6 +119,12 @@
 				07ED99861D2F749C00D97CDD /* AppDelegate.m */,
 				07ED99881D2F749C00D97CDD /* ViewController.h */,
 				07ED99891D2F749C00D97CDD /* ViewController.m */,
+				07ED99BA1D2F8E2300D97CDD /* SMSController.h */,
+				07ED99BB1D2F8E2300D97CDD /* SMSController.m */,
+				07ED99BC1D2F8E2300D97CDD /* SMSController.xib */,
+				07ED99B51D2F888800D97CDD /* TelController.h */,
+				07ED99B61D2F888800D97CDD /* TelController.m */,
+				07ED99B71D2F888800D97CDD /* TelController.xib */,
 				07ED998B1D2F749C00D97CDD /* Main.storyboard */,
 				07ED998E1D2F749C00D97CDD /* Assets.xcassets */,
 				07ED99901D2F749C00D97CDD /* LaunchScreen.storyboard */,
@@ -249,6 +269,8 @@
 				07ED99921D2F749C00D97CDD /* LaunchScreen.storyboard in Resources */,
 				07ED998F1D2F749C00D97CDD /* Assets.xcassets in Resources */,
 				07ED998D1D2F749C00D97CDD /* Main.storyboard in Resources */,
+				07ED99BE1D2F8E2300D97CDD /* SMSController.xib in Resources */,
+				07ED99B91D2F888800D97CDD /* TelController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +296,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				07ED998A1D2F749C00D97CDD /* ViewController.m in Sources */,
+				07ED99BD1D2F8E2300D97CDD /* SMSController.m in Sources */,
 				07ED99871D2F749C00D97CDD /* AppDelegate.m in Sources */,
 				07ED99841D2F749C00D97CDD /* main.m in Sources */,
+				07ED99B81D2F888800D97CDD /* TelController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,10 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wei feng Hou (MJ5ZYKMG5Q)";
 				INFOPLIST_FILE = "打电话/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lpx.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cc44cc2b-262b-4249-a785-62449cad186d";
 			};
 			name = Debug;
 		};
@@ -430,9 +457,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "打电话/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lpx.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cc44cc2b-262b-4249-a785-62449cad186d";
 			};
 			name = Release;
 		};
@@ -501,6 +530,7 @@
 				07ED99AE1D2F749C00D97CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07ED99AF1D2F749C00D97CDD /* Build configuration list for PBXNativeTarget "打电话Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +539,7 @@
 				07ED99B11D2F749C00D97CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07ED99B21D2F749C00D97CDD /* Build configuration list for PBXNativeTarget "打电话UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +548,7 @@
 				07ED99B41D2F749C00D97CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
